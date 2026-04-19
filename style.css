@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+ }
+
+ header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+ }
+
+ .proyectos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+ }
+
+ .tarjeta {
+    background: white;
+    padding: 20px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+
+ }
+ 
+ footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
